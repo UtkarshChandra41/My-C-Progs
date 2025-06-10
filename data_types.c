@@ -18,7 +18,7 @@ int main() {
     printf("short: %d\n", b);      // %d also works for short
     printf("long: %ld\n", c);      // %ld = long decimal
     printf("float: %.2f\n", x);    // %.2f = float with 2 digits after decimal
-    printf("double: %.5lf\n", y);  // %.6lf = double with 6 digits after decimal
+    printf("double: %.6lf\n", y);  // %.6lf = double with 6 digits after decimal & can be modified
     printf("char: %c\n", ch);      // %c = character
 
     return 0;
